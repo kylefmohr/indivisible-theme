@@ -45,7 +45,7 @@ return [
     | 
     */
 
-    'enable_custom_code' => 'false',
+    'enable_custom_code' => 'true',
 
     // Disable individual files (only applies if above is 'true').
     'enable_custom_head'     => 'true',
@@ -65,10 +65,10 @@ return [
     |
     */
 
-    'use_custom_icons' => 'false',
+    'use_custom_icons' => 'true',
 
     // Is not set correct this will cause errors.
-    'custom_icon_extension' => '.svg', // (.png, .jpg ...)
+    'custom_icon_extension' => '.png', // (.png, .jpg ...)
 
 
 

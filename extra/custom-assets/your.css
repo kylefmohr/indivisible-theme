@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Barlow', "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+h1 {
+  font-family: 'Barlow', sans-serif !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5); /* Useful if the background image makes text hard to read */
+}
+
+p {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.button, button {
+  border-radius: 8px !important;
+  font-family: 'Barlow', sans-serif !important;
+  font-weight: bold !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.2s ease !important;
+  border: none !important;
+}
+
+.button:hover, button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Indivisible Primary Colors for generic buttons */
+.button.button-custom {
+  background-color: #00417b !important; /* Blue */
+  color: #ffffff !important;
+  background-image: none !important;
+}
+
+.button.button-default {
+  background-color: #ffba08 !important; /* Yellow */
+  color: #00417b !important; /* Blue */
+}
+
+/* Add custom color classes you could use in Linkstack if it allows custom classes */
+.btn-indivisible-red {
+  background-color: #ff0c0c !important;
+  color: #ffffff !important;
+}
+
+.btn-indivisible-light-blue {
+  background-color: #21dee8 !important;
+  color: #00417b !important;
+}
+\n.social-icon:hover {\n  color: #ffba08 !important;\n}

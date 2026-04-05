@@ -13,10 +13,7 @@ You can load these custom assets with a built-in function, 'themeAsset()'.
 Add the file you want to add to your 'custom-assets' folder, and include the name with the file extension in the function.
 
 Down below, you can find a few examples using this function:
-
-<link rel="stylesheet" href="{{themeAsset('your.css')}}">
-<script src="{{themeAsset('your.js')}}"></script>
-<style>body{background-image: url({{themeAsset('your.png')}});}</style>
-
 --}}
 
+<link rel="stylesheet" href="{{themeAsset('your.css')}}">
+<style>body{background-image: url('{{themeAsset('background.png')}}'); background-size: cover; background-position: center; background-attachment: fixed;}</style>
