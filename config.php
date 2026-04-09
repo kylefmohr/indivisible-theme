@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'use_custom_icons' => 'true',
+    'use_custom_icons' => 'false',
 
     // Is not set correct this will cause errors.
     'custom_icon_extension' => '.png', // (.png, .jpg ...)
