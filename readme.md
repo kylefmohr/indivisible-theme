@@ -2,7 +2,7 @@
 Find more themes: https://github.com/JulianPrieber/llc-themes
                                                                                                                                                                          
 *	Theme Name: Indivisible Template
-*	Theme Version: 1.01
+*	Theme Version: 1.0
 *	Theme Date: 2026-04-05
 *	Theme Author: kylefmohr
 *	Theme Author URI: https://github.com/kylefmohr
